@@ -1,7 +1,7 @@
 # WeatherAPI
    
 ## Overview		
-    This is an Weather API that uses the OpenWeatherMap service        
+    This is a Weather API that uses the OpenWeatherMap service        
       
 # Installation      
     To start this project you need to follow the steps below
@@ -14,22 +14,22 @@
 ### Step 2 (Install all the required libraries)
     Open the terminal and navigate to the projects folder
     Run the command:
-        $ pip install -r requirements.txt 
+        $ py -m pip install -r requirements.txt 
 
 ### Step 3 Install MongoDB    
     In case you don't have the MongoDB installed
     Get a version from https://www.mongodb.com/try/download/community
 ![](readme_img/mongodb.png)
 
-    After installing the mongoDB
-    Navigate to the project's folder
-    Open the Python console and run the command:
-        >>> python utils/create_database_ttl_index.py
+    After installing the mongoDB    
+    Open the terminal and navigate to the project's folder
+    Run the command:
+        $ python utils/create_database_ttl_index.py        
 
-    This should create the database a ttl index
+    This should create the database and the ttl index
 ![](readme_img/mongo_database.png)
 
-    The tool that I use to manage my mongoDB instance is Mongo Management Studio
+    The tool that I've used to manage my mongoDB instance is "Mongo Management Studio"
     You could download from here http://mms.litixsoft.de/index.php?lang=en
 
 ![](readme_img/mongo_mg_studio.png)
@@ -50,7 +50,7 @@
           * Debug mode: off
           * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
         "
-		if not, please take a look on "Dependencies" section
+		if not, please take a look at "Step 2" 
  		 
 ### Step 5 Postman
     Install the Postman from https://www.postman.com/downloads/
