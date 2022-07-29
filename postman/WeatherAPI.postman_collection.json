@@ -1,0 +1,206 @@
+{
+	"variables": [],
+	"info": {
+		"name": "WeatherAPI",
+		"_postman_id": "d2c9f8c1-5e1b-10c3-c53e-d40a24ceed27",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get City and Country - Valid",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:5000/weather?city=Bogota&country=co",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bogota",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "country",
+							"value": "co",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get City and Country - Valid city name with space",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:5000/weather?city=Bogota&country=co",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bogota",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "country",
+							"value": "co",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get City and Country - Invalid city",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:5000/weather?city=Bogota&country=co",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bogota",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "country",
+							"value": "co",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get City and Country - Invalid country",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:5000/weather?city=Bogota&country=co",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bogota",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "country",
+							"value": "co",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get City and Country - without parameters",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:5000/weather?city=Bogota&country=co",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bogota",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "country",
+							"value": "co",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

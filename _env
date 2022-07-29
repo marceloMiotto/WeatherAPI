@@ -1,0 +1,11 @@
+"""
+    This file is only a representation of the .env file
+    Here is listed the environment variable necessary to the project
+
+    Get an api key from OpenWeatherMap service and update the <openweathermap key>
+
+    Then replace the _ (underscore) for a . (dot)
+
+"""
+
+API_OPEN_WEATHER_MAP_KEY=<openweathermap key>
